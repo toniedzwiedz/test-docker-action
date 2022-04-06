@@ -6,4 +6,4 @@ echo ::set-output name=time::$time
 
 ls -a
 
-cat textfile.txt
+cat test/textfile.txt
