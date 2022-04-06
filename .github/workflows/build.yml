@@ -9,6 +9,9 @@ jobs:
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v3
+      - name: copy file
+        run: |
+          cp test/textfile.txt action/textfile.txt
       - name: Hello world action step
         uses: ./action
         id: hello
